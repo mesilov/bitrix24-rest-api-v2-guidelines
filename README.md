@@ -5,7 +5,9 @@
 
 ## 2. Референсы на подобные документы
 - [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md)
-
+- [Google API design guide](https://cloud.google.com/apis/design)
+- [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
+ 
 ## 3. Актуальная версия гайдлайнов 
 [Bitrix24 REST API Guidelines](https://github.com/mesilov/bitrix24-rest-api-v2-guidelines/blob/main/guidelines.md)
 

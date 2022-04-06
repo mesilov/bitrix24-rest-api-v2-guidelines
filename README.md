@@ -11,5 +11,3 @@
 
 ## 4. Рабочая группа
 Ошибки и пожелания REST в Telegram, писать @lukoyanov_aleksandr
-```
-```

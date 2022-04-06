@@ -28,3 +28,28 @@ sale.order.update(id, fields)
 
 ```
 Если метод оперирует некой главной сущностью, то её параметр-идентификатор именуется, как `id`
+
+```javascript
+BX24.callMethod("disk.folder.get", {id: 12 });
+```
+```php
+public function getAction(Folder $folder);
+public function getAction($id); //если не нужен autowiring
+```
+```javascript
+BX24.callMethod("sale.order.update", {id: 560 });
+```
+
+```php
+public function updateAction(Order $order);
+public function updateAction($id); //если не нужен autowiring
+```
+
+Если метод оперирует вспомогательной сущностью, то её параметр-идентификатор именуется, как `{entityName}Id`
+
+```javascript
+BX24.callMethod("disk.folder.attachToStorage", {
+          id: 12,
+         storageId: 3
+});
+```
